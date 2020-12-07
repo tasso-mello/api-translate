@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "api.translate", "api.translate\api.translate.csproj", "{F48274FE-CCF3-49DC-ADF0-AD0A98013426}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "domain.translate", "domain.translate\domain.translate.csproj", "{F97A97D4-9EF3-4DCF-BEC3-4627037FA4E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F48274FE-CCF3-49DC-ADF0-AD0A98013426}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F48274FE-CCF3-49DC-ADF0-AD0A98013426}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F48274FE-CCF3-49DC-ADF0-AD0A98013426}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F48274FE-CCF3-49DC-ADF0-AD0A98013426}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F97A97D4-9EF3-4DCF-BEC3-4627037FA4E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F97A97D4-9EF3-4DCF-BEC3-4627037FA4E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F97A97D4-9EF3-4DCF-BEC3-4627037FA4E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F97A97D4-9EF3-4DCF-BEC3-4627037FA4E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D474AAE1-E1F8-4095-A930-0C95209F3513}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,239 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>api.translate</name>
+    </assembly>
+    <members>
+        <member name="T:api.translate.Controllers.TranslateController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:api.translate.Controllers.TranslateController.#ctor(domain.translate.Contracts.Business.ITranslateBusiness)">
+            <summary>
+                
+            </summary>
+            <param name="translateBusiness"></param>
+        </member>
+        <member name="M:api.translate.Controllers.TranslateController.Get(System.String)">
+            <summary>
+                Translate
+            </summary>
+            <param name="wordkey"></param>
+            <returns></returns>
+            <response code="200">Json list</response>
+            <response code="400">Error to try get translated word</response>  
+            <response code="404">Error to not found translate file path or word</response>  
+        </member>
+        <member name="M:api.translate.Controllers.TranslateController.Get(System.String,System.String)">
+            <summary>
+                
+            </summary>
+            <param name="wordkey"></param>
+            <param name="culture"></param>
+            <returns></returns>
+            <response code="200">Json list</response>
+            <response code="400">Error to try get translated word</response>  
+            <response code="404">Error to not found translate file path or word</response>  
+        </member>
+        <member name="M:api.translate.Controllers.TranslateController.GetList(System.Collections.Generic.List{System.String})">
+            <summary>
+                
+            </summary>
+            <param name="wordkeys"></param>
+            <returns></returns>
+        </member>
+        <member name="M:api.translate.Controllers.TranslateController.GetList(System.Collections.Generic.List{System.String},System.String)">
+            <summary>
+                
+            </summary>
+            <param name="wordkeys"></param>
+            <param name="culture"></param>
+            <returns></returns>
+        </member>
+        <member name="M:api.translate.Controllers.TranslateController.Post(domain.translate.Models.Translate,System.Int64)">
+            <summary>
+            
+            </summary>
+            <param name="Translate"></param>
+            <param name="idUser"></param>
+            <returns></returns>
+        </member>
+        <member name="M:api.translate.Controllers.TranslateController.Put(domain.translate.Models.Translate,System.Int64)">
+            <summary>
+            
+            </summary>
+            <param name="Translate"></param>
+            <param name="idUser"></param>
+            <returns></returns>
+        </member>
+        <member name="M:api.translate.Controllers.TranslateController.Delete(domain.translate.Models.Translate)">
+            <summary>
+            
+            </summary>
+            <param name="Translate"></param>
+            <returns></returns>
+        </member>
+        <member name="T:api.translate.Core.Compression.BrotliCompressionProvider">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:api.translate.Core.Compression.BrotliCompressionProvider.EncodingName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:api.translate.Core.Compression.BrotliCompressionProvider.SupportsFlush">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:api.translate.Core.Compression.BrotliCompressionProvider.CreateStream(System.IO.Stream)">
+            <summary>
+            
+            </summary>
+            <param name="outputStream"></param>
+            <returns></returns>
+        </member>
+        <member name="T:api.translate.Core.Exceptions.HttpStatusCodeException">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:api.translate.Core.Exceptions.HttpStatusCodeException.#ctor(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="statusCode"></param>
+        </member>
+        <member name="M:api.translate.Core.Exceptions.HttpStatusCodeException.#ctor(System.Int32,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="statusCode"></param>
+            <param name="message"></param>
+        </member>
+        <member name="M:api.translate.Core.Exceptions.HttpStatusCodeException.#ctor(System.Int32,System.Exception)">
+            <summary>
+            
+            </summary>
+            <param name="statusCode"></param>
+            <param name="inner"></param>
+        </member>
+        <member name="M:api.translate.Core.Exceptions.HttpStatusCodeException.#ctor(System.Int32,Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            
+            </summary>
+            <param name="statusCode"></param>
+            <param name="errorObject"></param>
+        </member>
+        <member name="M:api.translate.Core.Exceptions.HttpStatusCodeException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            
+            </summary>
+            <param name="info"></param>
+            <param name="context"></param>
+        </member>
+        <member name="M:api.translate.Core.Exceptions.HttpStatusCodeException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            
+            </summary>
+            <param name="info"></param>
+            <param name="context"></param>
+        </member>
+        <member name="P:api.translate.Core.Exceptions.HttpStatusCodeException.ResourceReferenceProperty">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:api.translate.Core.Exceptions.HttpStatusCodeException.StatusCode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:api.translate.Core.Exceptions.HttpStatusCodeException.ContentType">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:api.translate.Core.Exceptions.HttpStatusCodeExceptionMiddleware">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:api.translate.Core.Exceptions.HttpStatusCodeExceptionMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Logging.ILoggerFactory)">
+            <summary>
+            
+            </summary>
+            <param name="next"></param>
+            <param name="loggerFactory"></param>
+        </member>
+        <member name="M:api.translate.Core.Exceptions.HttpStatusCodeExceptionMiddleware.Invoke(Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="T:api.translate.Core.Exceptions.HttpStatusCodeExceptionMiddlewareExtensions">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:api.translate.Core.Exceptions.HttpStatusCodeExceptionMiddlewareExtensions.UseHttpStatusCodeExceptionMiddleware(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            
+            </summary>
+            <param name="builder"></param>
+            <returns></returns>
+        </member>
+        <member name="T:api.translate.Program">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:api.translate.Program.Main(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:api.translate.Program.CreateHostBuilder(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="T:api.translate.Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:api.translate.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:api.translate.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:api.translate.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:api.translate.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+    </members>
+</doc>

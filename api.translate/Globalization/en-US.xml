@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<globalizationDictionary culture="en-US">
+  <text name="testkey">Key Test</text>
+  <text name="testkey1">Key Test1</text>
+  <text name="testkey2">Key Test2</text>
+  <text name="testkey3">Key Test3</text>
+  <text name="btnSave">Save</text>
+</globalizationDictionary>
