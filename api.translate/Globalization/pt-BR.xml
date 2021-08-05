@@ -1,8 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <globalizationDictionary culture="pt-BR">
-  <text name="testkey">Teste Chave</text>
-  <text name="testkey1">Teste Chave1</text>
-  <text name="testkey2">Teste Chave2</text>
-  <text name="testkey3">Teste Chave3</text>
-  <text name="btnSave">Salvar</text>
+
 </globalizationDictionary>

@@ -15,6 +15,25 @@
             </summary>
             <param name="translateBusiness"></param>
         </member>
+        <member name="M:api.translate.Controllers.TranslateController.Get">
+            <summary>
+                Translate
+            </summary>
+            <returns></returns>
+            <response code="200">Json list</response>
+            <response code="400">Error to try get translated word</response>  
+            <response code="404">Error to not found translate file path or word</response>  
+        </member>
+        <member name="M:api.translate.Controllers.TranslateController.GetByCulture(System.String)">
+            <summary>
+                Translate
+            </summary>
+            <param name="culture"></param>
+            <returns></returns>
+            <response code="200">Json list</response>
+            <response code="400">Error to try get translated word</response>  
+            <response code="404">Error to not found translate file path or word</response>  
+        </member>
         <member name="M:api.translate.Controllers.TranslateController.Get(System.String)">
             <summary>
                 Translate
@@ -51,27 +70,19 @@
             <param name="culture"></param>
             <returns></returns>
         </member>
-        <member name="M:api.translate.Controllers.TranslateController.Post(domain.translate.Models.Translate,System.Int64)">
+        <member name="M:api.translate.Controllers.TranslateController.Post(System.String,System.String,System.String)">
             <summary>
             
             </summary>
-            <param name="Translate"></param>
-            <param name="idUser"></param>
+            <param name="culture"></param>
+            <param name="key"></param>
+            <param name="value"></param>
             <returns></returns>
         </member>
-        <member name="M:api.translate.Controllers.TranslateController.Put(domain.translate.Models.Translate,System.Int64)">
+        <member name="M:api.translate.Controllers.TranslateController.Post(domain.translate.Models.BachTranslate)">
             <summary>
             
             </summary>
-            <param name="Translate"></param>
-            <param name="idUser"></param>
-            <returns></returns>
-        </member>
-        <member name="M:api.translate.Controllers.TranslateController.Delete(domain.translate.Models.Translate)">
-            <summary>
-            
-            </summary>
-            <param name="Translate"></param>
             <returns></returns>
         </member>
         <member name="T:api.translate.Core.Compression.BrotliCompressionProvider">

@@ -73,11 +73,10 @@ namespace api.translate
 
             services.AddCors(options =>
             {
-                options.AddDefaultPolicy(builder =>
-                        builder.SetIsOriginAllowed(_ => true)
+                options.AddPolicy("CorsPolicy",
+                    builder => builder.AllowAnyOrigin()
                         .AllowAnyMethod()
-                        .AllowAnyHeader()
-                        .AllowCredentials());
+                        .AllowAnyHeader());
             });
 
             services.AddMvc()
@@ -172,11 +171,9 @@ namespace api.translate
             {
                 app.UseDeveloperExceptionPage();
                 app.UseHttpStatusCodeExceptionMiddleware();
+
+
             }
-
-            app.UseResponseCompression();
-
-            app.UseCors("CorsPolicy");
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
@@ -185,9 +182,9 @@ namespace api.translate
                 c.DocumentTitle = "WebApi translate documentation";
                 c.DocExpansion(DocExpansion.None);
             });
-
+            app.UseResponseCompression();
+            app.UseCors("CorsPolicy");
             app.UseHttpsRedirection();
-
             app.UseRouting();
 
             app.UseAuthorization();

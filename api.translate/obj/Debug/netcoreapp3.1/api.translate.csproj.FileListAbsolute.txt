@@ -74,3 +74,95 @@ F:\Projetos\2020\APIs\Translate\api.translate\Translate\api.translate\obj\Debug\
 F:\Projetos\2020\APIs\Translate\api.translate\Translate\api.translate\obj\Debug\netcoreapp3.1\api.translate.dll
 F:\Projetos\2020\APIs\Translate\api.translate\Translate\api.translate\obj\Debug\netcoreapp3.1\api.translate.pdb
 F:\Projetos\2020\APIs\Translate\api.translate\Translate\api.translate\obj\Debug\netcoreapp3.1\api.translate.genruntimeconfig.cache
+F:\Projetos\2021\VirtualNauta\Translate\APITranslate\Translate\api.translate\bin\Debug\netcoreapp3.1\appsettings.Development.json
+F:\Projetos\2021\VirtualNauta\Translate\APITranslate\Translate\api.translate\bin\Debug\netcoreapp3.1\appsettings.json
+F:\Projetos\2021\VirtualNauta\Translate\APITranslate\Translate\api.translate\bin\Debug\netcoreapp3.1\api.translate.exe
+F:\Projetos\2021\VirtualNauta\Translate\APITranslate\Translate\api.translate\bin\Debug\netcoreapp3.1\api.translate.xml
+F:\Projetos\2021\VirtualNauta\Translate\APITranslate\Translate\api.translate\bin\Debug\netcoreapp3.1\Globalization\en-US.xml
+F:\Projetos\2021\VirtualNauta\Translate\APITranslate\Translate\api.translate\bin\Debug\netcoreapp3.1\Globalization\es-ES.xml
+F:\Projetos\2021\VirtualNauta\Translate\APITranslate\Translate\api.translate\bin\Debug\netcoreapp3.1\Globalization\es-MX.xml
+F:\Projetos\2021\VirtualNauta\Translate\APITranslate\Translate\api.translate\bin\Debug\netcoreapp3.1\Globalization\es-PE.xml
+F:\Projetos\2021\VirtualNauta\Translate\APITranslate\Translate\api.translate\bin\Debug\netcoreapp3.1\Globalization\fr-FR.xml
+F:\Projetos\2021\VirtualNauta\Translate\APITranslate\Translate\api.translate\bin\Debug\netcoreapp3.1\Globalization\it-IT.xml
+F:\Projetos\2021\VirtualNauta\Translate\APITranslate\Translate\api.translate\bin\Debug\netcoreapp3.1\Globalization\pt-BR.xml
+F:\Projetos\2021\VirtualNauta\Translate\APITranslate\Translate\api.translate\bin\Debug\netcoreapp3.1\Globalization\pt-PT.xml
+F:\Projetos\2021\VirtualNauta\Translate\APITranslate\Translate\api.translate\bin\Debug\netcoreapp3.1\api.translate.deps.json
+F:\Projetos\2021\VirtualNauta\Translate\APITranslate\Translate\api.translate\bin\Debug\netcoreapp3.1\api.translate.runtimeconfig.json
+F:\Projetos\2021\VirtualNauta\Translate\APITranslate\Translate\api.translate\bin\Debug\netcoreapp3.1\api.translate.runtimeconfig.dev.json
+F:\Projetos\2021\VirtualNauta\Translate\APITranslate\Translate\api.translate\bin\Debug\netcoreapp3.1\api.translate.dll
+F:\Projetos\2021\VirtualNauta\Translate\APITranslate\Translate\api.translate\bin\Debug\netcoreapp3.1\api.translate.pdb
+F:\Projetos\2021\VirtualNauta\Translate\APITranslate\Translate\api.translate\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\Projetos\2021\VirtualNauta\Translate\APITranslate\Translate\api.translate\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+F:\Projetos\2021\VirtualNauta\Translate\APITranslate\Translate\api.translate\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\Projetos\2021\VirtualNauta\Translate\APITranslate\Translate\api.translate\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+F:\Projetos\2021\VirtualNauta\Translate\APITranslate\Translate\api.translate\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+F:\Projetos\2021\VirtualNauta\Translate\APITranslate\Translate\api.translate\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\Projetos\2021\VirtualNauta\Translate\APITranslate\Translate\api.translate\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+F:\Projetos\2021\VirtualNauta\Translate\APITranslate\Translate\api.translate\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+F:\Projetos\2021\VirtualNauta\Translate\APITranslate\Translate\api.translate\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+F:\Projetos\2021\VirtualNauta\Translate\APITranslate\Translate\api.translate\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+F:\Projetos\2021\VirtualNauta\Translate\APITranslate\Translate\api.translate\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\Projetos\2021\VirtualNauta\Translate\APITranslate\Translate\api.translate\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\Projetos\2021\VirtualNauta\Translate\APITranslate\Translate\api.translate\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+F:\Projetos\2021\VirtualNauta\Translate\APITranslate\Translate\api.translate\bin\Debug\netcoreapp3.1\domain.translate.dll
+F:\Projetos\2021\VirtualNauta\Translate\APITranslate\Translate\api.translate\bin\Debug\netcoreapp3.1\domain.translate.pdb
+F:\Projetos\2021\VirtualNauta\Translate\APITranslate\Translate\api.translate\obj\Debug\netcoreapp3.1\api.translate.csprojAssemblyReference.cache
+F:\Projetos\2021\VirtualNauta\Translate\APITranslate\Translate\api.translate\obj\Debug\netcoreapp3.1\api.translate.AssemblyInfoInputs.cache
+F:\Projetos\2021\VirtualNauta\Translate\APITranslate\Translate\api.translate\obj\Debug\netcoreapp3.1\api.translate.AssemblyInfo.cs
+F:\Projetos\2021\VirtualNauta\Translate\APITranslate\Translate\api.translate\obj\Debug\netcoreapp3.1\api.translate.csproj.CoreCompileInputs.cache
+F:\Projetos\2021\VirtualNauta\Translate\APITranslate\Translate\api.translate\obj\Debug\netcoreapp3.1\api.translate.MvcApplicationPartsAssemblyInfo.cs
+F:\Projetos\2021\VirtualNauta\Translate\APITranslate\Translate\api.translate\obj\Debug\netcoreapp3.1\api.translate.MvcApplicationPartsAssemblyInfo.cache
+F:\Projetos\2021\VirtualNauta\Translate\APITranslate\Translate\api.translate\obj\Debug\netcoreapp3.1\staticwebassets\api.translate.StaticWebAssets.Manifest.cache
+F:\Projetos\2021\VirtualNauta\Translate\APITranslate\Translate\api.translate\obj\Debug\netcoreapp3.1\staticwebassets\api.translate.StaticWebAssets.xml
+F:\Projetos\2021\VirtualNauta\Translate\APITranslate\Translate\api.translate\obj\Debug\netcoreapp3.1\scopedcss\bundle\api.translate.styles.css
+F:\Projetos\2021\VirtualNauta\Translate\APITranslate\Translate\api.translate\obj\Debug\netcoreapp3.1\api.translate.RazorTargetAssemblyInfo.cache
+F:\Projetos\2021\VirtualNauta\Translate\APITranslate\Translate\api.translate\obj\Debug\netcoreapp3.1\api.translate.csproj.CopyComplete
+F:\Projetos\2021\VirtualNauta\Translate\APITranslate\Translate\api.translate\obj\Debug\netcoreapp3.1\api.translate.dll
+F:\Projetos\2021\VirtualNauta\Translate\APITranslate\Translate\api.translate\obj\Debug\netcoreapp3.1\api.translate.pdb
+F:\Projetos\2021\VirtualNauta\Translate\APITranslate\Translate\api.translate\obj\Debug\netcoreapp3.1\api.translate.genruntimeconfig.cache
+F:\Projetos\2021\Blite\Unidas\Api Translate\api.translate\bin\Debug\netcoreapp3.1\appsettings.Development.json
+F:\Projetos\2021\Blite\Unidas\Api Translate\api.translate\bin\Debug\netcoreapp3.1\appsettings.json
+F:\Projetos\2021\Blite\Unidas\Api Translate\api.translate\bin\Debug\netcoreapp3.1\api.translate.exe
+F:\Projetos\2021\Blite\Unidas\Api Translate\api.translate\bin\Debug\netcoreapp3.1\api.translate.xml
+F:\Projetos\2021\Blite\Unidas\Api Translate\api.translate\bin\Debug\netcoreapp3.1\Globalization\en-US.xml
+F:\Projetos\2021\Blite\Unidas\Api Translate\api.translate\bin\Debug\netcoreapp3.1\Globalization\es-ES.xml
+F:\Projetos\2021\Blite\Unidas\Api Translate\api.translate\bin\Debug\netcoreapp3.1\Globalization\es-MX.xml
+F:\Projetos\2021\Blite\Unidas\Api Translate\api.translate\bin\Debug\netcoreapp3.1\Globalization\es-PE.xml
+F:\Projetos\2021\Blite\Unidas\Api Translate\api.translate\bin\Debug\netcoreapp3.1\Globalization\fr-FR.xml
+F:\Projetos\2021\Blite\Unidas\Api Translate\api.translate\bin\Debug\netcoreapp3.1\Globalization\it-IT.xml
+F:\Projetos\2021\Blite\Unidas\Api Translate\api.translate\bin\Debug\netcoreapp3.1\Globalization\pt-BR.xml
+F:\Projetos\2021\Blite\Unidas\Api Translate\api.translate\bin\Debug\netcoreapp3.1\Globalization\pt-PT.xml
+F:\Projetos\2021\Blite\Unidas\Api Translate\api.translate\bin\Debug\netcoreapp3.1\api.translate.deps.json
+F:\Projetos\2021\Blite\Unidas\Api Translate\api.translate\bin\Debug\netcoreapp3.1\api.translate.runtimeconfig.json
+F:\Projetos\2021\Blite\Unidas\Api Translate\api.translate\bin\Debug\netcoreapp3.1\api.translate.runtimeconfig.dev.json
+F:\Projetos\2021\Blite\Unidas\Api Translate\api.translate\bin\Debug\netcoreapp3.1\api.translate.dll
+F:\Projetos\2021\Blite\Unidas\Api Translate\api.translate\bin\Debug\netcoreapp3.1\api.translate.pdb
+F:\Projetos\2021\Blite\Unidas\Api Translate\api.translate\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\Projetos\2021\Blite\Unidas\Api Translate\api.translate\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+F:\Projetos\2021\Blite\Unidas\Api Translate\api.translate\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\Projetos\2021\Blite\Unidas\Api Translate\api.translate\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+F:\Projetos\2021\Blite\Unidas\Api Translate\api.translate\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+F:\Projetos\2021\Blite\Unidas\Api Translate\api.translate\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\Projetos\2021\Blite\Unidas\Api Translate\api.translate\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+F:\Projetos\2021\Blite\Unidas\Api Translate\api.translate\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+F:\Projetos\2021\Blite\Unidas\Api Translate\api.translate\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+F:\Projetos\2021\Blite\Unidas\Api Translate\api.translate\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+F:\Projetos\2021\Blite\Unidas\Api Translate\api.translate\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\Projetos\2021\Blite\Unidas\Api Translate\api.translate\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\Projetos\2021\Blite\Unidas\Api Translate\api.translate\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+F:\Projetos\2021\Blite\Unidas\Api Translate\api.translate\bin\Debug\netcoreapp3.1\domain.translate.dll
+F:\Projetos\2021\Blite\Unidas\Api Translate\api.translate\bin\Debug\netcoreapp3.1\domain.translate.pdb
+F:\Projetos\2021\Blite\Unidas\Api Translate\api.translate\obj\Debug\netcoreapp3.1\api.translate.csproj.AssemblyReference.cache
+F:\Projetos\2021\Blite\Unidas\Api Translate\api.translate\obj\Debug\netcoreapp3.1\api.translate.AssemblyInfoInputs.cache
+F:\Projetos\2021\Blite\Unidas\Api Translate\api.translate\obj\Debug\netcoreapp3.1\api.translate.AssemblyInfo.cs
+F:\Projetos\2021\Blite\Unidas\Api Translate\api.translate\obj\Debug\netcoreapp3.1\api.translate.csproj.CoreCompileInputs.cache
+F:\Projetos\2021\Blite\Unidas\Api Translate\api.translate\obj\Debug\netcoreapp3.1\api.translate.MvcApplicationPartsAssemblyInfo.cs
+F:\Projetos\2021\Blite\Unidas\Api Translate\api.translate\obj\Debug\netcoreapp3.1\api.translate.MvcApplicationPartsAssemblyInfo.cache
+F:\Projetos\2021\Blite\Unidas\Api Translate\api.translate\obj\Debug\netcoreapp3.1\staticwebassets\api.translate.StaticWebAssets.Manifest.cache
+F:\Projetos\2021\Blite\Unidas\Api Translate\api.translate\obj\Debug\netcoreapp3.1\staticwebassets\api.translate.StaticWebAssets.xml
+F:\Projetos\2021\Blite\Unidas\Api Translate\api.translate\obj\Debug\netcoreapp3.1\scopedcss\bundle\api.translate.styles.css
+F:\Projetos\2021\Blite\Unidas\Api Translate\api.translate\obj\Debug\netcoreapp3.1\api.translate.RazorTargetAssemblyInfo.cache
+F:\Projetos\2021\Blite\Unidas\Api Translate\api.translate\obj\Debug\netcoreapp3.1\api.translate.csproj.CopyComplete
+F:\Projetos\2021\Blite\Unidas\Api Translate\api.translate\obj\Debug\netcoreapp3.1\api.translate.dll
+F:\Projetos\2021\Blite\Unidas\Api Translate\api.translate\obj\Debug\netcoreapp3.1\api.translate.pdb
+F:\Projetos\2021\Blite\Unidas\Api Translate\api.translate\obj\Debug\netcoreapp3.1\api.translate.genruntimeconfig.cache

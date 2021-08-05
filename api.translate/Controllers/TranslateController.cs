@@ -15,6 +15,7 @@
     /// </summary>
     [ApiController]
     //[Authorize("Bearer")]
+    [AllowAnonymous]
     [Route("[controller]")]
     public class TranslateController : ControllerBase
     {
@@ -27,6 +28,53 @@
         public TranslateController(ITranslateBusiness translateBusiness)
         {
             _translateBusiness = translateBusiness;
+        }
+
+        /// <summary>
+        ///     Translate
+        /// </summary>
+        /// <returns></returns>
+        /// <response code="200">Json list</response>
+        /// <response code="400">Error to try get translated word</response>  
+        /// <response code="404">Error to not found translate file path or word</response>  
+        [HttpGet("all")]
+        public IActionResult Get()
+        {
+            var result = _translateBusiness.TranslateAll();
+
+            if (result.ToString().Contains("Error"))
+            {
+                if (result.ToString().Contains("404"))
+                    return NotFound(result);
+                else
+                    return BadRequest(result);
+            }
+            else
+                return Ok(result);
+        }
+
+        /// <summary>
+        ///     Translate
+        /// </summary>
+        /// <param name="culture"></param>
+        /// <returns></returns>
+        /// <response code="200">Json list</response>
+        /// <response code="400">Error to try get translated word</response>  
+        /// <response code="404">Error to not found translate file path or word</response>  
+        [HttpGet("all/{culture}")]
+        public IActionResult GetByCulture(string culture)
+        {
+            var result = _translateBusiness.TranslateAllByCulture(culture);
+
+            if (result.ToString().Contains("Error"))
+            {
+                if (result.ToString().Contains("404"))
+                    return NotFound(result);
+                else
+                    return BadRequest(result);
+            }
+            else
+                return Ok(result);
         }
 
         /// <summary>
@@ -84,7 +132,7 @@
         /// <param name="wordkeys"></param>
         /// <returns></returns>
         [HttpPost()]
-        public IActionResult GetList([FromBody]List<string> wordkeys)
+        public IActionResult GetList(List<string> wordkeys)
         {
             var result = _translateBusiness.Translate(wordkeys);
 
@@ -101,7 +149,7 @@
         /// <param name="culture"></param>
         /// <returns></returns>
         [HttpPost("{culture}")]
-        public IActionResult GetList([FromBody]List<string> wordkeys, string culture = null)
+        public IActionResult GetList(List<string> wordkeys, string culture = null)
         {
             var result = _translateBusiness.Translate(wordkeys, culture);
 
@@ -114,55 +162,34 @@
         /// <summary>
         /// 
         /// </summary>
-        /// <param name="Translate"></param>
-        /// <param name="idUser"></param>
+        /// <param name="culture"></param>
+        /// <param name="key"></param>
+        /// <param name="value"></param>
         /// <returns></returns>
-        [HttpPost("{idUser}")]
-        private IActionResult Post([FromBody] Translate Translate, long idUser)
+        [HttpPost("{culture}/{key}/{value}")]
+        public IActionResult Post(string culture, string key, string value)
         {
-            //var result = _translateBusiness.Save(Translate, idUser);
+			var result = _translateBusiness.Insert(culture, key, value);
 
-            //if (result.ToString().Contains("Error"))
-            //    return BadRequest(result);
-            //else
-            //    return Created(string.Empty, result);
-
-            return null;
-        }
+			if (result.ToString().Contains("Error"))
+				return BadRequest(result);
+			else
+				return Created(string.Empty, result);
+		}
 
         /// <summary>
         /// 
         /// </summary>
-        /// <param name="Translate"></param>
-        /// <param name="idUser"></param>
         /// <returns></returns>
-        [HttpPut("{idUser}")]
-        private IActionResult Put([FromBody] Translate Translate, long idUser)
+        [HttpPost("bach")]
+        public IActionResult Post(BachTranslate translate)
         {
-            //var result = _translateBusiness.Update(Translate, idUser);
+            var result = _translateBusiness.Insert(translate);
 
-            //if (result.ToString().Contains("Error"))
-            //    return BadRequest(result);
-            //else
-            //    return Ok(result);
-            return null;
-        }
-
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="Translate"></param>
-        /// <returns></returns>
-        [HttpDelete]
-        private IActionResult Delete([FromBody] Translate Translate)
-        {
-            //var result = _translateBusiness.Delete(Translate);
-
-            //if (result.ToString().Contains("Error"))
-            //    return BadRequest(result);
-            //else
-            //    return Delete(Translate);
-            return null;
+            if (result.ToString().Contains("Error"))
+                return BadRequest(result);
+            else
+                return Created(string.Empty, result);
         }
     }
 }

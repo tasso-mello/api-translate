@@ -1,8 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <globalizationDictionary culture="fr-FR">
-  <text name="testkey">Test clé</text>
-  <text name="testkey1">Test clé1</text>
-  <text name="testkey2">Test clé2</text>
-  <text name="testkey3">Test clé3</text>
-  <text name="btnSave">Save em francês</text>
+
 </globalizationDictionary>
